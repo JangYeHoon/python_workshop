@@ -3,7 +3,7 @@ todos = []
 todoNum = 1
 
 while True:
-    print("====== Cloud MSA반 수강생 관리 시스템 ======")
+    print("====== 일정 관리 시스템 ======")
     print("1. 할일 등록")
     print("2. 할일 목록 보기")
     print("3. 할일 삭제")
