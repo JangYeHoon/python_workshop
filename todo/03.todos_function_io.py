@@ -46,8 +46,8 @@ def is_exist(todoNum):
 # 프로그램 종료시 list students "students.dat" 파일 저장
 def save_list():
     save_file = open("todos.dat", "w")
-    for index, student in enumerate(todos):
-        save_file.write("{}번째 | {}, {}\n".format(index, student["todoNum"], student['title']))
+    for index, todo in enumerate(todos):
+        save_file.write("{}번째 | {}, {}\n".format(index, todo["todoNum"], todo['title']))
 
     save_file.close()
 # 프로그램 시작시 "students.dat" 파일이 존재하고 정보가 있는 경우 list studetns 초기화
